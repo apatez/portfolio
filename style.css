@@ -1,0 +1,81 @@
+h1, nav {
+  font-family: 'American Typewriter', serif;
+}
+
+nav{
+  word-spacing: 60px;
+  text-transform: lowercase;
+}
+
+h2 {
+  font-weight:100;
+  font-size: ;
+}
+
+h3 {
+  font-family: 'Marker Felt', fantasy;
+  color: #46494c;
+}
+
+h2, p, ol {
+  font-family: 'Courier New', monospace;
+}
+
+a {
+  font-size: 14px;
+}
+a:link{color: black}
+a:visited{color: gray}
+a:hover{
+  color: #e5989b;
+  text-decoration: none;}
+a:active{color: #b5838d}
+
+body {
+  background-color: #ffff;
+}
+
+header, main, footer {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  padding: 20px;
+}
+
+hr {
+  width: 900px;
+  height: 1px;
+  border: none;
+  background: black;
+  color: black;
+}
+
+/* Wasn't sure how to center my image, so I created this center-img class to apply to it*/
+.center-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%; 
+}
+
+.img-box {
+  width: 350px;
+  margin: auto;
+}
+
+.list-box{
+  width: 100px;
+  margin: auto;
+}
+/* Didn't really understand from the lesson whether this was something required in every CSS style page, but I figured I'd include it just in case*/
+.box {
+  width: 650px;
+  margin: auto;
+  background-color: ;
+  padding: 10px;
+}
+.border-box {
+  box-sizing: border-box;
+}
